@@ -6,7 +6,7 @@ const app=express();
 
 
 app.get('/',(request,response)=>{
-    return response.send("Hello world");
+    return response.render('D:/Tic-Tac-Toe/index.js')
 })
 
 
